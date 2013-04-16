@@ -1,0 +1,7 @@
+chaco: chaco
+jar: /../jar/convertE2V.jar
+partition: #These parameters are chaco-specific.
+  method: 1 #This is the KL method
+  vtx: 100 #This is the number of vertices to coarse down to.
+  div_by: 1 #This means we are proceeding to bisections at each iteration level.
+  
